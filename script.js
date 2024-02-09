@@ -7,7 +7,7 @@ const temperature = document.getElementById('temperature');
 const description = document.getElementById('description');
 const humidity = document.getElementById('humidity')
 const feelslike = document.getElementById('feels_like');
-const image = document.getElementById('weatherImage');
+
 const weatherImage = document.querySelector(".weatherImage");
 
 
