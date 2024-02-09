@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #ffffff;
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=akDgL2uk&id=3A30F8CC0D29F82D1C52AAE76CE64FE5B2F51C4B&thid=OIP.akDgL2ukYtnkTFgx6tjWYQHaE8&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.6a40e02f6ba462d9e44c5831ead8d661%3frik%3dSxz1suVP5mznqg%26riu%3dhttp%253a%252f%252fupload.wikimedia.org%252fwikipedia%252fcommons%252f8%252f89%252fCumulus_cloud.jpg%26ehk%3drXVouI6iOtfNscCMBHKTn7xUdUbSyuyKJDjJqblfpMk%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1067&expw=1600&q=clouds&simid=608049799338805158&FORM=IRPRST&ck=29A1DF99CC97343EB5C816F36184D5F8&selectedIndex=6&itb=0);
 }
 .card{
     width: 90%;
