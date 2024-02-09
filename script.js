@@ -5,10 +5,11 @@ const search = document.getElementById('searchButton');
 const locationElement = document.getElementById('location');
 const temperature = document.getElementById('temperature');
 const description = document.getElementById('description');
-const humidity = document.getElementById('humidity')
+const humidity = document.getElementById('humidity');
 const feelslike = document.getElementById('feels_like');
-
+const airPressure = document.getElementById('airPressure');
 const weatherImage = document.querySelector(".weatherImage");
+const visibility = document.getElementById('visibility');
 
 
 search.addEventListener('click', () => {
@@ -38,8 +39,8 @@ function getWeather(userLocation){
             feelslike.textContent = `Feels Like: ${Math.round(data.main.feels_like)} F`;
             description.textContent = data.weather[0].main;
             humidity.textContent = `Humidity: ${Math.round(data.main.humidity)} %`;
-            
-
+            airPressure.textContent = `Air Pressure: ${data.main.pressure} hPa`;
+            visibility.textContent = `Visibility: ${data.visibility} m`;
         })
         .catch(error => {
             console.error('Error fetching weather data:', error);
