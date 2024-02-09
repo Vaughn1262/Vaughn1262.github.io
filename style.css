@@ -7,7 +7,7 @@
 }
 body{
     background-image: url(https://th.bing.com/th/id/R.6a40e02f6ba462d9e44c5831ead8d661?rik=Sxz1suVP5mznqg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f8%2f89%2fCumulus_cloud.jpg&ehk=rXVouI6iOtfNscCMBHKTn7xUdUbSyuyKJDjJqblfpMk%3d&risl=&pid=ImgRaw&r=0);
-    background: olive;
+    
 }
 .card{
     width: 90%;
@@ -15,7 +15,7 @@ body{
     height: 90%;
     max-height: 400px;
     background: linear-gradient(140deg, #1d811d, #141eaf);
-    color: olive;
+    color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
