@@ -14,11 +14,20 @@ const weatherImage = document.querySelector(".weatherImage");
 search.addEventListener('click', () => {
     const userLocation = inputLocation.value;
     if (userLocation){
-        fetchWeather(userLocation);
+        getWeather(userLocation);
     }
 });
 
-function fetchWeather(userLocation){
+inputLocation.addEventListener("keypress", function(event){
+    if (event.key === "Enter"){
+        const userLocation = inputLocation.value;
+        if (userLocation){
+            getWeather(userLocation);
+        }  
+    }
+});
+
+function getWeather(userLocation){
     const url = `${Url}?q=${userLocation}&appid=${Key}&units=imperial`;
     fetch(url)
         .then(response => response.json())
