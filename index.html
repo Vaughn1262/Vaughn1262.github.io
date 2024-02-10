@@ -1,30 +1,30 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- This is the html file that sets up the webpage and gives the information that goes on it-->
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App - Vaughn Palmer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- This links the style file to this file to set up the specific look of the webpage. -->
 </head>
 <body>
 
-<div class="card">
+<div class="card">  <!-- This gives the class for the card that everything goes on. The search class goes on this. There is specfics for color and such in style.css-->
     <div class="search">
-        <h1>Weather Information</h1>
+        <h1>Weather Information</h1> <!-- This is the heading text Weather Information-->
         <input type="text" id="inputLocation" placeholder="Enter City Name"
-        spellcheck="false">
-        <button id="searchButton"><img src="Searchsmall2.png"></button>
-        <div class="weather-info">
-            <img class="weatherImage">
-            <h2 id="location"></h2>
-            <p id="temperature"></p>
-            <p id="feels_like"></p>
-            <p id="description"></p>
-            <p id="humidity"></p>
-            <p id="airPressure"></p>
-            <p id="visibility"></p>
+        spellcheck="false"> <!-- This part sets up the text box that allows the user to input their location and is not checked for spelling errors to ensure user gets exactly what they want-->
+        <button id="searchButton"><img src="Searchsmall2.png"></button> <!-- This gives the search button and adds an image onto the search button. -->
+        <div class="weather-info"> <!-- This class contains all of the weather information, images, and sets it to be exactly where we want it.-->
+            <img class="weatherImage"> <!-- This adds the image that can change due to the description image ID.-->
+            <h2 id="location"></h2>  <!-- This displays the locaiton the user entered if it is valid-->
+            <p id="temperature"></p><!-- Displays the temperature of the place the user entered.-->
+            <p id="feels_like"></p> <!--Displays the feels like of the place the user entered.-->
+            <p id="description"></p><!-- Gives the weather description of the place.-->
+            <p id="humidity"></p><!-- Gives the humdidity percentage of the location.-->
+            <p id="airPressure"></p><!-- Gives the air pressure of the location entered.-->
+            <p id="visibility"></p><!-- Gives visibility of location in meters.-->
         </div>
     </div>
 </div>
-<script src="script.js"></script>
+<script src="script.js"></script><!-- Links the script file to fetch the weather information and images.-->
 </body>
 </html>

@@ -1,13 +1,16 @@
-*{
+/* This portion sets the font for the whole page and other defaults that can be adjusted specifically later. */
+*{ 
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+/* This portion puts the background image of clouds in the background for the website. */
 body{
     background-image: url(https://th.bing.com/th/id/R.6a40e02f6ba462d9e44c5831ead8d661?rik=Sxz1suVP5mznqg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f8%2f89%2fCumulus_cloud.jpg&ehk=rXVouI6iOtfNscCMBHKTn7xUdUbSyuyKJDjJqblfpMk%3d&risl=&pid=ImgRaw&r=0);
     background-size: cover;
 }
+/* This sets up the card to be a specific width, height, color, with a radius, padding, and text align. */
 .card{
     width: 90%;
     max-width: 800px;
@@ -20,6 +23,7 @@ body{
     padding: 40px 35px;
     text-align: center;
 }
+/* This sets the buttons color, the color of the text, the border radius, and padding */
 button{
     background-color: #940202;
     color: #ffffff;
@@ -27,6 +31,7 @@ button{
     padding: 5px 10px;
 }
 
+/* This gives a slightly bigger margin at the top to separate the data from the search bar */
 .weather-info{
     margin-top: 20px;
 }
