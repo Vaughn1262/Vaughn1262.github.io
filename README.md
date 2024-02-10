@@ -8,9 +8,7 @@ I have a Javascript file called script.js that contains all the logic for the ap
 
 I wrote this software to have a useful web application for weather and to learn Javascript. I think I accomplished what I sought out to did more than I intitially thought. I can also add to this program and make it better easily.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/l-OykyQYPQs)
 
 ## Development Environment
 
@@ -23,6 +21,8 @@ I used Javascript for all of my logic and used HTML for the webpage and CSS for 
 - [W3schools](https://www.w3schools.com/)
 - [Youtube](https://www.youtube.com)
 - [StackExchange](https://www.stackexchange.com)
+- [Microsoft Copilot](https://www.bing.com/chat?q=Bing+AI&FORM=hpcodx)
+Copilot is really useful to learn how new languages work and why some code doesn't work. Very useful learning tool.
 
 ## Future Work
 
